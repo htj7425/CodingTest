@@ -12,7 +12,3 @@ def solution(numbers, direction):
         answer.extend(last)
         answer.extend(first)
     return answer
-
-
-arr = [1, 2, 3]
-print(solution(arr, "right"))

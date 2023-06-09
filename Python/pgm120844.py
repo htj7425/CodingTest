@@ -11,4 +11,5 @@ def solution(numbers, direction):
         answer.extend(middle)
         answer.extend(last)
         answer.extend(first)
+
     return answer

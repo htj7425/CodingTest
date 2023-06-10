@@ -1,6 +1,4 @@
 def solution(array):
-    answer = []
-    temp = [i for i in array]
-    answer = [max(temp), temp.index(max(temp))]
+    answer = [max(array), array.index(max(array))]
 
     return answer
